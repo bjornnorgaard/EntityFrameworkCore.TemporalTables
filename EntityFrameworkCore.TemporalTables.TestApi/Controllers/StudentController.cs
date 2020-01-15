@@ -36,7 +36,18 @@ namespace EntityFrameworkCore.TemporalTables.TestApi.Controllers
         [HttpGet("{id}/history")]
         public IQueryable<Student> GetStudentHistory(int id)
         {
-            return  _context.Students.Between(DateTimeOffset.MinValue, DateTimeOffset.MaxValue).Where(s => s.Id == id);
+            return _context.Students
+                .Between(DateTimeOffset.MinValue, DateTimeOffset.MaxValue)
+                .Where(s => s.Id == id);
+        }
+
+        [HttpGet("{id}/ten-minutes-ago")]
+        public Task<Student> GetStudentHistory10MinAgo(int id)
+        {
+            var state = _context.Students
+                .AsOf(DateTimeOffset.Now.AddMinutes(-10))
+                .FirstOrDefaultAsync(s => s.Id == id);
+            return state;
         }
 
         [HttpPost]
