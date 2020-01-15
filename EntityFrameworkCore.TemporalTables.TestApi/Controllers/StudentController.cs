@@ -33,11 +33,6 @@ namespace EntityFrameworkCore.TemporalTables.TestApi.Controllers
             return await _context.Students.FirstOrDefaultAsync(s => s.Id == id);
         }
 
-        /// <summary>
-        /// Method currently throws after ':TemporalEntity' was added to Student class.
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
         [HttpGet("{id}/history")]
         public IQueryable<Student> GetStudentHistory(int id)
         {
