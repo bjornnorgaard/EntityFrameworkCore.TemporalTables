@@ -1,5 +1,4 @@
 ﻿using EntityFrameworkCore.TemporalTables.Cache;
-using EntityFrameworkCore.TemporalTables.Extensions;
 using EntityFrameworkCore.TemporalTables.Sql;
 using EntityFrameworkCore.TemporalTables.Sql.Factory;
 using EntityFrameworkCore.TemporalTables.Sql.Table;

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace EntityFrameworkCore.TemporalTables.Tests.Mocks.Entities
+﻿namespace EntityFrameworkCore.TemporalTables.Tests.Mocks.Entities
 {
     public class User
     {

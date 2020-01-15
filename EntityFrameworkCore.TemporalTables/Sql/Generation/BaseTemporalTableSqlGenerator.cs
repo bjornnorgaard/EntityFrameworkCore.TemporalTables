@@ -1,5 +1,4 @@
-﻿using EntityFrameworkCore.TemporalTables.SqlTemplates.Helpers;
-using System;
+﻿using System;
 
 namespace EntityFrameworkCore.TemporalTables.Sql.Generation
 {

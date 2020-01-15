@@ -1,6 +1,5 @@
 ﻿using EntityFrameworkCore.TemporalTables.Tests.Mocks.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace EntityFrameworkCore.TemporalTables.Tests.Mocks
 {

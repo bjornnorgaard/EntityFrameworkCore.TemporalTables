@@ -3,7 +3,6 @@ using EntityFrameworkCore.TemporalTables.Tests.Mocks;
 using EntityFrameworkCore.TemporalTables.Tests.Mocks.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Linq;
 
 namespace EntityFrameworkCore.TemporalTables.Tests.Cache
 {

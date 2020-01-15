@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace EntityFrameworkCore.TemporalTables.Sql.Generation
+﻿namespace EntityFrameworkCore.TemporalTables.Sql.Generation
 {
     /// <summary>
     /// No real SQL code generation for temporal tables. Refer to the Null object pattern for more details.

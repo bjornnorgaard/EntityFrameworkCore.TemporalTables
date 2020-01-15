@@ -1,5 +1,4 @@
 ﻿using EntityFrameworkCore.TemporalTables.Sql.Generation;
-using Microsoft.Extensions.Logging;
 
 namespace EntityFrameworkCore.TemporalTables.Sql.Factory
 {

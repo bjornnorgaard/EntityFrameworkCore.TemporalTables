@@ -1,8 +1,4 @@
-﻿using EntityFrameworkCore.TemporalTables.Cache;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
-using System;
-using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace EntityFrameworkCore.TemporalTables.Sql
 {
